@@ -1,18 +1,45 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&sk {
-  quick-release;
-};
-
 / {
+    macros {
+        dia_a: dia_a {
+            label = "dia_a";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp A>
+                ;
+        };
+        dia_o: dia_o {
+            label = "dia_o";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp O>
+                ;
+        };
+    };
+    behaviors {
+        td_a: td_a {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_a";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp A>, <&dia_a>;
+        };
+    };
         keymap {
                 compatible = "zmk,keymap";
 
@@ -38,7 +65,15 @@
    &trans &trans &trans     &trans   &kp CAPS   &kp LG(X)       &trans       &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_CLR   &kp RIGHT    &kp DEL
    &trans &trans &kp C_PREV &kp C_PP &kp C_NEXT &kp LG(V)       &trans       &kp LEFT     &trans        &kp C_BRI_DN &kp C_BRI_UP &kp LA(BSPC)
    &trans &trans &trans     &kp DOWN &kp UP     &kp LG(C)       &kp LC(LEFT) &trans       &kp LC(RIGHT) &kp C_VOL_DN &kp C_VOL_UP &trans
-                            &trans   &trans     &trans          &trans       &trans       &trans
+                            &trans   &trans     &trans          &tog 3       &trans       &trans
+                        >;
+                };
+                slovak_layer {
+                        bindings = <
+   &trans &trans &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
+   &tog 3 &td_a  &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
+   &trans &trans &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
+                        &trans &trans &trans                    &trans &trans &trans
                         >;
                 };
         };
