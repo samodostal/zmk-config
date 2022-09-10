@@ -17,6 +17,19 @@
                 , <&macro_tap &kp A>
                 ;
         };
+        dia_a_u: dia_a_u {
+            label = "dia_a_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(A)>
+                ;
+        };
         dia_o: dia_o {
             label = "dia_o";
             compatible = "zmk,behavior-macro";
@@ -30,6 +43,331 @@
                 , <&macro_tap &kp O>
                 ;
         };
+        dia_o_u: dia_o_u {
+            label = "dia_o_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(O)>
+                ;
+        };
+        dia_e: dia_e {
+            label = "dia_e";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp E>
+                ;
+        };
+        dia_e_u: dia_e_u {
+            label = "dia_e_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(E)>
+                ;
+        };
+        dia_u: dia_u {
+            label = "dia_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp U>
+                ;
+        };
+        dia_u_u: dia_u_u {
+            label = "dia_u_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(U)>
+                ;
+        };
+        dia_i: dia_i {
+            label = "dia_i";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp I>
+                ;
+        };
+        dia_i_u: dia_i_u {
+            label = "dia_i_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(I)>
+                ;
+        };
+        dia_y: dia_y {
+            label = "dia_y";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp Y>
+                ;
+        };
+        dia_y_u: dia_y_u {
+            label = "dia_y_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp SQT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(Y)>
+                ;
+        };
+        dia_d: dia_d {
+            label = "dia_d";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp D>
+                ;
+        };
+        dia_d_u: dia_d_u {
+            label = "dia_d_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(D)>
+                ;
+        };
+        dia_c: dia_c {
+            label = "dia_c";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp C>
+                ;
+        };
+        dia_c_u: dia_c_u {
+            label = "dia_c_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(C)>
+                ;
+        };
+        dia_t: dia_t {
+            label = "dia_t";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp T>
+                ;
+        };
+        dia_t_u: dia_t_u {
+            label = "dia_t_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(T)>
+                ;
+        };
+        dia_r: dia_r {
+            label = "dia_r";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp R>
+                ;
+        };
+        dia_r_u: dia_r_u {
+            label = "dia_r_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(R)>
+                ;
+        };
+        dia_n: dia_n {
+            label = "dia_n";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp N>
+                ;
+        };
+        dia_n_u: dia_n_u {
+            label = "dia_n_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(N)>
+                ;
+        };
+        dia_l: dia_l {
+            label = "dia_l";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp L>
+                ;
+        };
+        dia_l_u: dia_l_u {
+            label = "dia_l_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(L)>
+                ;
+        };
+        dia_s: dia_s {
+            label = "dia_s";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp S>
+                ;
+        };
+        dia_s_u: dia_s_u {
+            label = "dia_s_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(S)>
+                ;
+        };
+        dia_z: dia_z {
+            label = "dia_z";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp Z>
+                ;
+        };
+        dia_z_u: dia_z_u {
+            label = "dia_z_u";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <1>;
+            tap-ms = <1>;
+            bindings
+                = <&macro_press &kp RALT>
+                , <&macro_tap &kp GT>
+                , <&macro_release &kp RALT>
+                , <&macro_tap &kp LS(Z)>
+                ;
+        };
     };
     behaviors {
         td_a: td_a {
@@ -38,6 +376,195 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp A>, <&dia_a>;
+        };
+        td_a_u: td_a_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_a_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(A)>, <&dia_a_u>;
+        };
+        td_o: td_o {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_o";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp O>, <&dia_o>;
+        };
+        td_o_u: td_o_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_o_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(O)>, <&dia_o_u>;
+        };
+        td_e: td_e {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_e";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp E>, <&dia_e>;
+        };
+        td_e_u: td_e_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_e_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(E)>, <&dia_e_u>;
+        };
+        td_u: td_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp U>, <&dia_u>;
+        };
+        td_u_u: td_u_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_u_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(U)>, <&dia_u_u>;
+        };
+        td_i: td_i {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_i";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp I>, <&dia_i>;
+        };
+        td_i_u: td_i_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_i_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(I)>, <&dia_i_u>;
+        };
+        td_y: td_y {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_y";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp Y>, <&dia_y>;
+        };
+        td_y_u: td_y_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_y_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(Y)>, <&dia_y_u>;
+        };
+        td_d: td_d {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_d";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp D>, <&dia_d>;
+        };
+        td_d_u: td_d_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_d_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(D)>, <&dia_d_u>;
+        };
+        td_c: td_c {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_c";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp C>, <&dia_c>;
+        };
+        td_c_u: td_c_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_c_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(C)>, <&dia_c_u>;
+        };
+        td_t: td_t {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_t";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp T>, <&dia_t>;
+        };
+        td_t_u: td_t_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_t_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(T)>, <&dia_t_u>;
+        };
+        td_r: td_r {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_r";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp R>, <&dia_r>;
+        };
+        td_r_u: td_r_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_r_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(R)>, <&dia_r_u>;
+        };
+        td_n: td_n {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_n";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp N>, <&dia_n>;
+        };
+        td_n_u: td_n_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_n_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(N)>, <&dia_n_u>;
+        };
+        td_l: td_l {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_l";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp L>, <&dia_l>;
+        };
+        td_l_u: td_l_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_l_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(L)>, <&dia_l_u>;
+        };
+        td_s: td_s {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_s";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp S>, <&dia_s>;
+        };
+        td_s_u: td_s_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_s_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(S)>, <&dia_s_u>;
+        };
+        td_z: td_z {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_z";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp Z>, <&dia_z>;
+        };
+        td_z_u: td_z_u {
+            compatible = "zmk,behavior-tap-dance";
+            label = "td_z_u";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(Z)>, <&dia_z_u>;
         };
     };
         keymap {
@@ -70,10 +597,18 @@
                 };
                 slovak_layer {
                         bindings = <
-   &trans &trans &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
-   &tog 3 &td_a  &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
-   &trans &trans &trans &trans &trans &trans                    &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans                    &trans &trans &trans
+   &trans &trans &trans &trans &trans &td_y               &trans &trans &td_c  &td_r  &td_l &trans
+   &trans &td_a  &td_o  &td_e  &td_u  &td_i               &td_d  &trans &td_t  &td_n  &td_s &trans
+   &mo 4  &trans &trans &trans &trans &trans              &trans &trans &trans &trans &td_z &mo 4
+                        &trans &trans &trans              &tog 3 &trans &trans
+                        >;
+                };
+                slovak_layer_upper {
+                        bindings = <
+   &trans &trans  &trans    &trans    &kp LS(P) &td_y_u         &kp LS(F) &kp LS(G) &td_c_u   &td_r_u   &td_l_u &trans
+   &trans &td_a_u &td_o_u   &td_e_u   &td_u_u   &td_i_u         &td_d_u   &kp LS(H) &td_t_u   &td_n_u   &td_s_u &trans
+   &trans &trans  &kp LS(Q) &kp LS(J) &kp LS(K) &kp LS(X)       &kp LS(B) &kp LS(M) &kp LS(W) &kp LS(V) &td_z_u &trans
+                            &trans    &trans    &trans          &trans  &trans &trans
                         >;
                 };
         };
